@@ -1,0 +1,8 @@
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.145.200:3306/sakila
+    type: com.alibaba.druid.pool.DruidDataSource
